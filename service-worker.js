@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/murmur-policy/precache-manifest.bc7a16a3999041297374f43862925e46.js"
+  "/murmur-policy/precache-manifest.44e576b293669d66f0d7c628cbaf3b87.js"
 );
 
 self.addEventListener('message', (event) => {

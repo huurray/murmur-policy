@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/murmur-policy/static/js/main.25d3e1c7.chunk.js",
-    "main.js.map": "/murmur-policy/static/js/main.25d3e1c7.chunk.js.map",
+    "main.js": "/murmur-policy/static/js/main.60473343.chunk.js",
+    "main.js.map": "/murmur-policy/static/js/main.60473343.chunk.js.map",
     "runtime-main.js": "/murmur-policy/static/js/runtime-main.1230dd35.js",
     "runtime-main.js.map": "/murmur-policy/static/js/runtime-main.1230dd35.js.map",
-    "static/js/2.f309933c.chunk.js": "/murmur-policy/static/js/2.f309933c.chunk.js",
-    "static/js/2.f309933c.chunk.js.map": "/murmur-policy/static/js/2.f309933c.chunk.js.map",
+    "static/js/2.fae203ad.chunk.js": "/murmur-policy/static/js/2.fae203ad.chunk.js",
+    "static/js/2.fae203ad.chunk.js.map": "/murmur-policy/static/js/2.fae203ad.chunk.js.map",
     "index.html": "/murmur-policy/index.html",
-    "precache-manifest.bc7a16a3999041297374f43862925e46.js": "/murmur-policy/precache-manifest.bc7a16a3999041297374f43862925e46.js",
+    "precache-manifest.44e576b293669d66f0d7c628cbaf3b87.js": "/murmur-policy/precache-manifest.44e576b293669d66f0d7c628cbaf3b87.js",
     "service-worker.js": "/murmur-policy/service-worker.js",
-    "static/js/2.f309933c.chunk.js.LICENSE.txt": "/murmur-policy/static/js/2.f309933c.chunk.js.LICENSE.txt"
+    "static/js/2.fae203ad.chunk.js.LICENSE.txt": "/murmur-policy/static/js/2.fae203ad.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1230dd35.js",
-    "static/js/2.f309933c.chunk.js",
-    "static/js/main.25d3e1c7.chunk.js"
+    "static/js/2.fae203ad.chunk.js",
+    "static/js/main.60473343.chunk.js"
   ]
 }
