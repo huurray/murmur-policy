@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f08b3338f88f9cb4e2740891301266a8",
+    "revision": "0f413409f5cfbbb74136eb6f01af7787",
     "url": "/murmur-policy/index.html"
   },
   {
