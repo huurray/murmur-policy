@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import styled from "styled-components";
+import React, { useEffect } from 'react';
+import styled from 'styled-components';
 
 export default function ({ COMPANY, CS_EMAIL }: any) {
   useEffect(() => {
@@ -10,20 +10,20 @@ export default function ({ COMPANY, CS_EMAIL }: any) {
       <S.Box>
         <S.SubTitle>개인정보 처리방침의 기본방향</S.SubTitle>
         <S.Text>
-          오늘의 감정과 이야기를 녹음하는 다이어리 서비스(이하 "서비스"){" "}
-          {COMPANY}에 오신 것을 환영합니다. 이하는 "미드나잇플랜"이 귀하의{" "}
-          {COMPANY}(이하 "사이트") 이용 약관 내용을 담고 있습니다.
-          "미드나잇플랜"(이하 "회사" 혹은 "우리")은 대한민국 법에 등록된 회사로
-          사업자 번호는 489-03-01218입니다. 이하의 약관을 신중하게 읽고 명확히
-          이해 하십시오. 사이트를 이용하시게 되면 사이트 가입 여부와 무관하게 본
-          사용 약관(이하 "약관") 을 준수하고 법에 따른다는 것으로 간주합니다. 본
-          약관에 동의하지 않으시는 경우, 사이트 관련 정보를 수집하거나 사이트를
-          계속 이용하실 수 없습니다. 이하 약관에 위반하여 사이트를 이용하는 경우
-          민사 혹은 형사 처벌을 받을 수 있습니다. 회사는 언제든 약관을 변경할
-          권리를 가집니다. 귀하가 사이트를 계속해서 이용하는 경우 변경된 약관
-          내용에 동의하는 것으로 간주합니다. 따라서, 사용자들은 약관의 변경이
-          있는 경우 이를 검토하여야 합니다. 문의가 있는 경우 즉시
-          {CS_EMAIL}으로 이메일을 보내주십시오.
+          오늘의 감정과 이야기를 녹음하는 다이어리 서비스(이하 "서비스"){' '}
+          {COMPANY}에 오신 것을 환영합니다. 이하는 "미드나잇플랜"(대표 허준혁,
+          CEO Junhyeok Heo)이 귀하의 {COMPANY}(이하 "사이트") 이용 약관 내용을
+          담고 있습니다. "미드나잇플랜"(이하 "회사" 혹은 "우리")은 대한민국 법에
+          등록된 회사로 사업자 번호는 489-03-01218입니다. 이하의 약관을 신중하게
+          읽고 명확히 이해 하십시오. 사이트를 이용하시게 되면 사이트 가입 여부와
+          무관하게 본 사용 약관(이하 "약관") 을 준수하고 법에 따른다는 것으로
+          간주합니다. 본 약관에 동의하지 않으시는 경우, 사이트 관련 정보를
+          수집하거나 사이트를 계속 이용하실 수 없습니다. 이하 약관에 위반하여
+          사이트를 이용하는 경우 민사 혹은 형사 처벌을 받을 수 있습니다. 회사는
+          언제든 약관을 변경할 권리를 가집니다. 귀하가 사이트를 계속해서
+          이용하는 경우 변경된 약관 내용에 동의하는 것으로 간주합니다. 따라서,
+          사용자들은 약관의 변경이 있는 경우 이를 검토하여야 합니다. 문의가 있는
+          경우 즉시 {CS_EMAIL}으로 이메일을 보내주십시오.
         </S.Text>
       </S.Box>
       <S.Box>
@@ -40,6 +40,10 @@ export default function ({ COMPANY, CS_EMAIL }: any) {
             않고 (c) 귀하가 본 사이트 이용과 관련하여 글 게시, 콘텐츠 사용 및
             기타 모든 행위가 법률이나 제3자의 권리를 위반하지 않음을 선언하고
             보장합니다.
+          </S.ListItem>
+          <S.ListItem>
+            1.3 {COMPANY}은 한국에서 개발되고 배포되었습니다. (This app is
+            developed and released in Republic of Korea.)
           </S.ListItem>
         </S.UList>
       </S.Box>
@@ -288,7 +292,7 @@ const S = {
     margin: 5px 0;
   `,
   UList: styled.ul`
-    list-style-type: ${(props: any) => (props.type ? props.type : "disc")};
+    list-style-type: ${(props: any) => (props.type ? props.type : 'disc')};
   `,
   OList: styled.ol`
     list-style-type: decimal;
