@@ -8,7 +8,7 @@ export default function ({ COMPANY, CS_EMAIL }: any) {
   return (
     <>
       <S.Box>
-        <S.SubTitle>개인정보 처리방침의 기본방향</S.SubTitle>
+        <S.SubTitle>개요</S.SubTitle>
         <S.Text>
           오늘의 감정과 이야기를 녹음하는 다이어리 서비스(이하 "서비스"){' '}
           {COMPANY}에 오신 것을 환영합니다. 이하는 "미드나잇플랜"(대표 허준혁,

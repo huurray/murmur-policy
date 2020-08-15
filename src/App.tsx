@@ -2,20 +2,37 @@ import React, { useState } from 'react';
 // hocs
 import withStyles from './styles/index';
 // components
-import Policy from './components/Policy';
-import Privacy from './components/Privacy';
+import Language from './components/Language';
+import PolicyKo from './components/PolicyKo';
+import PolicyEn from './components/PolicyEn';
+import PrivacyKo from './components/PrivacyKo';
+import PrivacyEn from './components/PrivacyEn';
 // styles
 import styled from 'styled-components';
 import * as sizes from './styles/sizes';
 
-const COMPANY = '"소곤소곤(Murmur)"';
-const CS_EMAIL = 'huurray@gmail.com';
-
 function App() {
   const [type, setType] = useState('policy');
+  const [lng, setLng] = useState('ko');
+
+  function getCompanyName() {
+    switch (lng) {
+      case 'ko':
+        return '"소곤소곤(Murmur)"';
+      case 'en':
+        return '"Murmur"';
+      default:
+        return '';
+    }
+  }
+  const CS_EMAIL = 'huurray@gmail.com';
+
   return (
     <Container>
       <Content>
+        <Box style={{ flex: 1 }}>
+          <Language setLng={setLng} />
+        </Box>
         <Box
           style={{
             borderBottom: '1px solid #e6e9ed',
@@ -43,9 +60,25 @@ function App() {
           </Row>
           <Text>개정 2020. 05. 01</Text>
         </Box>
-        {type === 'policy' && <Policy COMPANY={COMPANY} CS_EMAIL={CS_EMAIL} />}
+        {type === 'policy' && (
+          <>
+            {lng === 'ko' && (
+              <PolicyKo COMPANY={getCompanyName()} CS_EMAIL={CS_EMAIL} />
+            )}
+            {lng === 'en' && (
+              <PolicyEn COMPANY={getCompanyName()} CS_EMAIL={CS_EMAIL} />
+            )}
+          </>
+        )}
         {type === 'privacy' && (
-          <Privacy COMPANY={COMPANY} CS_EMAIL={CS_EMAIL} />
+          <>
+            {lng === 'ko' && (
+              <PrivacyKo COMPANY={getCompanyName()} CS_EMAIL={CS_EMAIL} />
+            )}
+            {lng === 'en' && (
+              <PrivacyEn COMPANY={getCompanyName()} CS_EMAIL={CS_EMAIL} />
+            )}
+          </>
         )}
       </Content>
     </Container>
