@@ -46,7 +46,7 @@ function App() {
               }}
               onClick={() => setType('policy')}
             >
-              이용약관
+              {lng === 'en' ? 'Policy' : '이용약관'}
             </Title>
             <div style={{ width: 24 }} />
             <Title
@@ -55,10 +55,10 @@ function App() {
               }}
               onClick={() => setType('privacy')}
             >
-              개인정보 처리방침
+              {lng === 'en' ? 'Privacy Policy' : '개인정보 처리방침'}
             </Title>
           </Row>
-          <Text>개정 2020. 05. 01</Text>
+          <Text>{lng === 'en' ? 'Revision' : '개정'} 2020. 05. 01</Text>
         </Box>
         {type === 'policy' && (
           <>
