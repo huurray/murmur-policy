@@ -264,21 +264,25 @@ export default function ({ COMPANY, CS_EMAIL }: any) {
         <S.SubTitle> 5. Personal information</S.SubTitle>
         <S.UList>
           <S.ListItem>
-            4.1 In principle, if an individual wishes to delete an account, The
+            5.1 In principle, if an individual wishes to delete an account, The
             personal information will be destroyed. The procedure, deadline and
             method of destruction are as follows: The same.
           </S.ListItem>
           <S.ListItem>
-            4.2 Personal information transferred to DB is different It is not
+            5.2 Personal information transferred to DB is different It is not
             used for any purpose.
           </S.ListItem>
           <S.ListItem>
-            4.3 {COMPANY} received consent from the data subject when collecting
+            5.3 {COMPANY} received consent from the data subject when collecting
             personal information Period of retention and use of personal
             information or period of retention and use of personal information
             according to laws and regulations We process and retain personal
             information within. Withdrawal of contracts and subscriptions in
             e-commerce transactions, Payment, goods supply record: 5 years
+          </S.ListItem>
+          <S.ListItem>
+            5.4 Recorded files stored in the DB are deleted if there is no app
+            login access record for the last 1 year or more.
           </S.ListItem>
         </S.UList>
       </S.Box>

@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import styled from "styled-components";
+import React, { useEffect } from 'react';
+import styled from 'styled-components';
 
 export default function ({ COMPANY, CS_EMAIL }: any) {
   useEffect(() => {
@@ -210,6 +210,10 @@ export default function ({ COMPANY, CS_EMAIL }: any) {
           보유합니다. 개인정보를 삭제하기 위해 당사는 이를 익명화하거나,
           삭제하거나, 다른 적절한 조치를 취할 수 있습니다.
         </S.Text>
+        <S.Text>
+          DB에 저장된 녹음 파일은 최근 1년 이상 앱 로그인 접속 기록이 없는 경우
+          모든 파일을 삭제합니다.
+        </S.Text>
       </S.Box>
       <S.Box>
         <S.SubTitle>보안</S.SubTitle>
@@ -357,7 +361,7 @@ const S = {
     margin: 5px 0;
   `,
   UList: styled.ul`
-    list-style-type: ${(props: any) => (props.type ? props.type : "disc")};
+    list-style-type: ${(props: any) => (props.type ? props.type : 'disc')};
   `,
   OList: styled.ol`
     list-style-type: decimal;

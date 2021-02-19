@@ -239,6 +239,10 @@ export default function ({ COMPANY, CS_EMAIL }: any) {
           information, we anonymize it, or Delete it, or take other appropriate
           action.
         </S.Text>
+        <S.Text>
+          Recorded files stored in the DB are deleted if there is no app login
+          access record for the last 1 year or more.
+        </S.Text>
       </S.Box>
       <S.Box>
         <S.SubTitle>Security</S.SubTitle>
