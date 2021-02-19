@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5900a03dcd040f07a3a079a0272753a2",
+    "revision": "11b4e91130590c37ca89c6963ff62ec7",
     "url": "/murmur-policy/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/murmur-policy/static/js/2.2192321e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "756aaa6c2632ccf78970",
-    "url": "/murmur-policy/static/js/main.79a18165.chunk.js"
+    "revision": "da9fca0615c6bf2b2f8f",
+    "url": "/murmur-policy/static/js/main.18ee127e.chunk.js"
   },
   {
     "revision": "6a8d9b03f715deb41e2f",
