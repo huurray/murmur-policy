@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import styled from 'styled-components';
+import React, { useEffect } from "react";
+import styled from "styled-components";
 
 export default function ({ COMPANY, CS_EMAIL }: any) {
   useEffect(() => {
@@ -48,241 +48,395 @@ export default function ({ COMPANY, CS_EMAIL }: any) {
         </S.UList>
       </S.Box>
       <S.Box>
-        <S.SubTitle>
-          2. Non-commercial usage costs by members and users
-        </S.SubTitle>
+        <S.SubTitle>2. Service Usage and Restrictions</S.SubTitle>
         <S.UList>
           <S.ListItem>
-            2.1 About the cost, content and period of the site and services at
-            the time of your subscription The contents are subject to change
-            from time to time and will be announced through electronic
-            notification. Our company You can deny access to your site without
-            special reason and sign up Upon notification to the registered email
-            address or other email address, membership You can also shut it
-            down. Membership for breach of our terms and conditions In case of
-            termination, refund for the remaining unused service period Does not
-            provide.
+            2.1 All users may create up to 5 recordings per day.
           </S.ListItem>
           <S.ListItem>
-            2.2 In case of violation of the law related to payment of this site,
-            the member or Users are immediately restricted from using the site
-            and the law in relation to this offense In the case of investigation
-            cooperation from the authorities, the member or user Share
-            information.
+            2.2 Free users may record up to 5 minutes per recording, while
+            Premium subscribers may record up to 20 minutes per recording.
           </S.ListItem>
           <S.ListItem>
-            2.3 We have a third party responsible for in-site payments on our
-            behalf. You can use it. These third party organizations are not
-            subject to their own privacy policies. Accordingly, members or users
-            are responsible for protecting their personal information related to
-            payment. There is.
-          </S.ListItem>
-          <S.ListItem>
-            2.4 This site should be used for the personal use of individual
-            members and users. And should not be used for commercial purposes.
-            Institutions, companies and Businesses should not sign up as members
-            of this site and The service should not be used for the following
-            purposes. Commercial to members Sending emails, advertising for
-            other websites and services, or Using personally identifiable
-            information for commercial purposes, this site is illegal and If
-            used for any purpose other than that permitted, unauthorized framing
-            and In case of linking to site links, sending commercial messages,
-            etc. Proceeds, and the relevant laws such as civil and criminal Not
-            only taking measures, but also terminating membership according to
-            our own authority. You can also take action. Email or unsolicited
-            commercial messages In order to prevent sending via conversation, we
-            may send from certain accounts and Take reasonable measures, such as
-            investigating the number of emails and messages received can.
+            2.3 We may restrict service usage or terminate membership for
+            violation of terms, illegal use, or other legitimate reasons. In
+            such cases, prior notice will be sent to your registered email
+            address.
           </S.ListItem>
         </S.UList>
       </S.Box>
 
       <S.Box>
-        <S.SubTitle> 3. Privacy</S.SubTitle>
+        <S.SubTitle>3. Subscription Services</S.SubTitle>
         <S.UList>
           <S.ListItem>
-            3.1 We do not post on the site, but we do not disclose certain other
-            personal information about you. Can be collected. We transfer your
-            information to us without your consent. We do not provide it to any
-            third party that is not related. However, we To protect or defend
-            rights, to protect or defend the rights of third parties Or, by law,
-            to respond to a court order or subpoena, etc. If so, we may hand
-            over your information without your specific consent. Also To the
-            extent necessary for the operation of this site, we We provide
-            information about users to third parties.
-          </S.ListItem>
-          <S.ListItem>
-            3.2 By providing photos and other personal information on the site,
-            you Persistent, international, not exclusive, but without special
-            royalties Personal information may be used, reproduced, posted,
-            corrected, distributed and promoted in the media. Is considered to
-            be allowed.
-          </S.ListItem>
-          <S.ListItem>
-            3.3 The content that members receive, post, and transmit on the site
-            Responsibility. The following contents can be received, posted or
-            transmitted on the site. There is not.
+            3.1 This service offers a Free Plan and Premium Subscription Plans.
             <S.UList>
-              <S.ListItem>3.3.1 defamation.</S.ListItem>
               <S.ListItem>
-                3.3.2 Behavior that generalizes and degrades a race, ethnicity
-                or religious group Etc.
+                (1) Free Plan: Basic recording (up to 5 minutes), local storage,
+                includes advertisements
               </S.ListItem>
               <S.ListItem>
-                3.3.3 Erotic photos or photos that appear to be under 18 years
-                of age.
-              </S.ListItem>
-              <S.ListItem>3.3.4 Description of illegal drug use.</S.ListItem>
-              <S.ListItem>3.3.5 Use of violent language or images.</S.ListItem>
-              <S.ListItem>
-                3.3.6 Violence is acceptable or nicely described.
-              </S.ListItem>
-              <S.ListItem>6.3.7 Provides links to commercial sites.</S.ListItem>
-              <S.ListItem>
-                3.3.8 Individuals other than those requested or specially
-                requested when signing up for the site Post contact information.
+                (2) Premium Subscription: Extended recording (up to 20 minutes),
+                AI diary analysis, emotion analysis, speech-to-text (STT),
+                keyword analysis, cloud backup, ad-free experience
               </S.ListItem>
             </S.UList>
           </S.ListItem>
           <S.ListItem>
-            3.4 We do not provide specific texts at the request of you or anyone
-            else. There is no obligation to post. In addition, we are fully
-            committed to our own At your discretion, you may revise or delete
-            anything you post or submit. There is.
+            3.2 Premium subscriptions are available as monthly or yearly plans.
+            <S.UList>
+              <S.ListItem>
+                (1) Monthly Subscription: Valid for 1 month from the payment
+                date, automatically renews each month unless canceled.
+              </S.ListItem>
+              <S.ListItem>
+                (2) Yearly Subscription: Valid for 1 year from the payment date,
+                automatically renews each year unless canceled.
+              </S.ListItem>
+            </S.UList>
           </S.ListItem>
           <S.ListItem>
-            3.5 When using this site, the website or third party website Links
-            allow you to access content provided by other users or third
-            parties. can. We believe that content provided by third parties may
-            be misleading, Incomplete, misinformed, aggressive, unhealthy or
-            otherwise We do not have administrative rights and are not
-            responsible for them.
-          </S.ListItem>
-          <S.ListItem>
-            3.6 You can set up a single ID and password when signing up. The
-            security of such information is entirely your responsibility. You
-            are (a) Log out after each session on the site ends and (b) your ID
-            and In the event of a suspicious security situation using a
-            password, immediately contact us. You have a duty to inform.
+            3.3 Subscription fees can be found in the app or on the respective
+            app store. We may change fees with prior notice, and changed fees
+            will apply from the next billing cycle.
           </S.ListItem>
         </S.UList>
       </S.Box>
+
       <S.Box>
-        <S.SubTitle> 4. Limitation of Liability</S.SubTitle>
+        <S.SubTitle>4. Free Trial</S.SubTitle>
         <S.UList>
           <S.ListItem>
-            4.1 We are committed even if we are notified in advance of certain
-            losses Direct or indirect, general, special, or as a result of or in
-            connection with the following examples Liability for any and all
-            other damages resulting from, exemplary and punitive loss Does not
-            lose. (a) Use of this site and inability to use (b) Use of this site
-            Information through or obtained from the site or any products,
-            services and information (C) Access to, correction of information
-            provided by you without authorization And (d) information or program
-            errors, service failures and alternative services Loss due to
-            purchase (e) Name and conduct of the service provider or third party
-            on the site And omissions (f) in all spaces online and offline in
-            connection with the use of the site. Other members who have
-            subscribed to this service or who have been introduced by the site
-            Arising from the actions of you or others in conversations or
-            meetings with members Injury, psychological pain, death, and all
-            other actions (g) By using this site Things that occur in or in
-            connection with.
+            4.1 New users may be offered a 7-day free trial period. During the
+            free trial, you can access all Premium subscription features.
           </S.ListItem>
           <S.ListItem>
-            4.2 We, regardless of our reasonable attention, pursuant to these
-            Terms and Conditions We are not responsible for any failure or delay
-            in service provision.
+            4.2 The free trial is available only once per account.
           </S.ListItem>
           <S.ListItem>
-            4.3 Your use of the site is entirely your own responsibility. It
-            happens. The scope of this site "as is" and "usable" Service within.
-            Whether expressly or explicitly regarding the use of the site All
-            warranties and commercial rights, whether implied or not And all
-            rights protected by law are delegated by you.
+            4.3 When the free trial expires, you will automatically be converted
+            to the Free Plan and will not be able to use Premium features unless
+            you subscribe to a paid plan.
           </S.ListItem>
           <S.ListItem>
-            4.4 We make no guarantees that (a) this site Whether it meets the
-            requirements (b) the service of this site is uninterrupted, Timely,
-            safe and error-free. (c) Site The accuracy and reliability of
-            information obtained through (d) purchase through the site or The
-            quality of goods, services, information and other things you have
-            obtained will meet your expectations. Whether (e) the information
-            you provide or we collect is never Whether or not to disclose (f)
-            any information or software errors will be corrected. Whether or
-            not.
-          </S.ListItem>
-          <S.ListItem>
-            4.5 When you use this site to access or transmit information If so,
-            this is done at your own discretion and responsibility. That
-            information Any loss or damage caused by access or transmission is
-            entirely One is your responsibility.
-          </S.ListItem>
-          <S.ListItem>
-            4.6 Document information or data that we receive orally or in
-            writing is No rights arise unless otherwise stated in the terms and
-            conditions.
-          </S.ListItem>
-          <S.ListItem>
-            4.7 This section and other provisions that exclude or limit our
-            liability Our executives, managers, employees, subcontractors,
-            agents, and Applies to partners. Any part of these terms and
-            conditions Death, injury, and fraudulent misrepresentation and other
-            legal It does not exclude or limit liability for parts that cannot
-            be excluded or limited. not.
+            4.4 If you convert to a paid subscription during the free trial, the
+            remaining trial period will be forfeited and the paid subscription
+            will begin immediately.
           </S.ListItem>
         </S.UList>
       </S.Box>
+
       <S.Box>
-        <S.SubTitle> 4. Ownership</S.SubTitle>
+        <S.SubTitle>5. Payment and Auto-Renewal</S.SubTitle>
         <S.UList>
           <S.ListItem>
-            4.1 All contents on the site are publicity rights, copyrights,
-            trademarks, Protection of service marks, patent rights, trade
-            secrets and other trademark rights and laws I receive it. Except
-            where expressly authorized by us You sell, license, rent, modify,
-            distribute, and sell the contents of this site. Reproduction,
-            reproduction, transmission, public publication, public reenactment,
-            publication, adaptation, modification and You cannot produce
-            derivatives. However, you can It can be used for general, personal,
-            and non-commercial purposes.
+            5.1 Premium subscription payments are processed through in-app
+            purchases via Apple App Store (iOS) or Google Play Store (Android).
           </S.ListItem>
           <S.ListItem>
-            4.2 Extracting and accumulating data or other information of the
-            site through the system, Download, collect, or edit directly or
-            indirectly one time or several times. It should not be done, and
-            this method can be done manually or by running other programs such
-            as None of the methods used are allowed. Other website or written In
-            addition, our logo and all trademarks are used as meta tags, etc. It
-            should not be used. Parts of this site without our prior written
-            consent (Or link to site content through links) must not be
-            disclosed.
+            5.2 Subscriptions automatically renew at the same price unless
+            canceled at least 24 hours before the end of the current billing
+            period. The auto-renewal charge will be made within 24 hours of the
+            end of the current subscription period.
+          </S.ListItem>
+          <S.ListItem>
+            5.3 You can manage subscription cancellation directly from:
+            <S.UList>
+              <S.ListItem>
+                iOS: Settings → Apple ID → Subscriptions → Cancel
+              </S.ListItem>
+              <S.ListItem>
+                Android: Google Play Store → Menu → Subscriptions → Cancel
+              </S.ListItem>
+            </S.UList>
+          </S.ListItem>
+          <S.ListItem>
+            5.4 Even if you cancel your subscription, you can continue to use
+            Premium features until the end of your already-paid subscription
+            period.
+          </S.ListItem>
+          <S.ListItem>
+            5.5 Deleting the app does not cancel your subscription. You must
+            cancel through the methods described above.
           </S.ListItem>
         </S.UList>
       </S.Box>
+
       <S.Box>
-        <S.SubTitle> 5. Personal information</S.SubTitle>
+        <S.SubTitle>6. Refund Policy</S.SubTitle>
         <S.UList>
           <S.ListItem>
-            5.1 In principle, if an individual wishes to delete an account, The
-            personal information will be destroyed. The procedure, deadline and
-            method of destruction are as follows: The same.
+            6.1 Refunds for subscription payments are subject to the refund
+            policies of Apple App Store or Google Play Store. We do not process
+            refunds directly within the app.
           </S.ListItem>
           <S.ListItem>
-            5.2 Personal information transferred to DB is different It is not
-            used for any purpose.
+            6.2 To request a refund, please contact:
+            <S.UList>
+              <S.ListItem>
+                iOS: Apple Support (reportaproblem.apple.com)
+              </S.ListItem>
+              <S.ListItem>
+                Android: Google Play Help Center (support.google.com/googleplay)
+              </S.ListItem>
+            </S.UList>
           </S.ListItem>
           <S.ListItem>
-            5.3 {COMPANY} received consent from the data subject when collecting
-            personal information Period of retention and use of personal
-            information or period of retention and use of personal information
-            according to laws and regulations We process and retain personal
-            information within. Withdrawal of contracts and subscriptions in
-            e-commerce transactions, Payment, goods supply record: 5 years
+            6.3 If you are unable to use the service due to our fault, we will
+            extend your subscription period accordingly or provide reasonable
+            compensation.
+          </S.ListItem>
+        </S.UList>
+      </S.Box>
+
+      <S.Box>
+        <S.SubTitle>7. Advertisements</S.SubTitle>
+        <S.UList>
+          <S.ListItem>
+            7.1 Free Plan users may see interstitial advertisements after
+            completing a recording.
           </S.ListItem>
           <S.ListItem>
-            5.4 Recorded files stored in the DB are deleted if there is no app
-            login access record for the last 1 year or more.
+            7.2 Premium subscribers will not see any advertisements.
+          </S.ListItem>
+          <S.ListItem>
+            7.3 Advertisements are provided through Google AdMob, and the
+            advertising provider's privacy policy may apply.
+          </S.ListItem>
+        </S.UList>
+      </S.Box>
+
+      <S.Box>
+        <S.SubTitle>8. Data Storage and Backup</S.SubTitle>
+        <S.UList>
+          <S.ListItem>
+            8.1 Free users' recordings are stored only in local storage on the
+            device. Data may be lost if the device is lost, the app is deleted,
+            or the device is changed. We are not responsible for such data loss.
+          </S.ListItem>
+          <S.ListItem>
+            8.2 Premium subscribers' recordings are automatically backed up to
+            Firebase cloud storage in addition to local storage.
+          </S.ListItem>
+          <S.ListItem>
+            8.3 Data previously backed up to the cloud will be retained even
+            after subscription cancellation. However, new backups will not be
+            possible and cloud sync features will be unavailable.
+          </S.ListItem>
+          <S.ListItem>
+            8.4 If there is no app login activity for more than 1 year, all data
+            including recordings stored in the cloud may be deleted. Prior
+            notice will be sent to your registered email before deletion.
+          </S.ListItem>
+        </S.UList>
+      </S.Box>
+
+      <S.Box>
+        <S.SubTitle>9. Privacy</S.SubTitle>
+        <S.UList>
+          <S.ListItem>
+            9.1 We may collect your personal information to the extent necessary
+            for providing the service. We do not provide your information to any
+            third party unrelated to us without your consent. However, we may
+            disclose your information without your specific consent to protect
+            our rights, protect the rights of third parties, or to comply with
+            legal requirements such as court orders or subpoenas.
+          </S.ListItem>
+          <S.ListItem>
+            9.2 You are solely responsible for content you record or store
+            through the service. The following content may not be recorded,
+            stored, or transmitted through the service:
+            <S.UList>
+              <S.ListItem>(1) Defamatory content</S.ListItem>
+              <S.ListItem>
+                (2) Content that disparages specific races, ethnicities, or
+                religious groups
+              </S.ListItem>
+              <S.ListItem>
+                (3) Illegal activities or drug-related content
+              </S.ListItem>
+              <S.ListItem>(4) Violent or threatening content</S.ListItem>
+              <S.ListItem>
+                (5) Content that infringes on others' personal information or
+                copyrights
+              </S.ListItem>
+            </S.UList>
+          </S.ListItem>
+          <S.ListItem>
+            9.3 We do not pre-screen content you store, but we may delete
+            content or suspend accounts if violations are confirmed.
+          </S.ListItem>
+          <S.ListItem>
+            9.4 You may set up an ID and password when registering. The security
+            of this information is entirely your responsibility, and you must
+            notify us immediately if you suspect a security breach.
+          </S.ListItem>
+        </S.UList>
+      </S.Box>
+
+      <S.Box>
+        <S.SubTitle>10. Limitation of Liability</S.SubTitle>
+        <S.UList>
+          <S.ListItem>
+            10.1 To the maximum extent permitted by law, we are not liable for
+            direct or indirect damages arising from:
+            <S.UList>
+              <S.ListItem>(1) Use or inability to use the service</S.ListItem>
+              <S.ListItem>
+                (2) Inaccuracy of information obtained through the service
+              </S.ListItem>
+              <S.ListItem>
+                (3) Unauthorized access, modification, or disclosure of data
+              </S.ListItem>
+              <S.ListItem>
+                (4) System errors, service failures, or data loss
+              </S.ListItem>
+              <S.ListItem>(5) Inaccuracy of AI analysis results</S.ListItem>
+            </S.UList>
+          </S.ListItem>
+          <S.ListItem>
+            10.2 This service is provided "as is," and we make no express or
+            implied warranties regarding the completeness, accuracy,
+            reliability, or fitness for a particular purpose of the service.
+          </S.ListItem>
+          <S.ListItem>
+            10.3 AI-based features such as emotion analysis, keyword extraction,
+            and speech-to-text (STT) are provided for reference only and do not
+            replace professional advice in medical, legal, or psychological
+            counseling matters.
+          </S.ListItem>
+          <S.ListItem>
+            10.4 This section does not limit our liability for damages caused by
+            our willful misconduct or gross negligence, or for damages to life
+            or body.
+          </S.ListItem>
+        </S.UList>
+      </S.Box>
+
+      <S.Box>
+        <S.SubTitle>11. Intellectual Property</S.SubTitle>
+        <S.UList>
+          <S.ListItem>
+            11.1 All content within the service (design, logos, text, graphics,
+            software, etc.) is protected by the intellectual property rights of
+            us or our licensors.
+          </S.ListItem>
+          <S.ListItem>
+            11.2 You may use the content of this service only for personal,
+            non-commercial purposes and may not reproduce, distribute, modify,
+            or create derivative works without our prior written consent.
+          </S.ListItem>
+          <S.ListItem>
+            11.3 You retain ownership of the content you record. However, you
+            grant us the right to store, process, and analyze such content to
+            the extent necessary for providing the service.
+          </S.ListItem>
+        </S.UList>
+      </S.Box>
+
+      <S.Box>
+        <S.SubTitle>12. Personal Information Processing</S.SubTitle>
+        <S.UList>
+          <S.ListItem>
+            12.1 We process personal information in accordance with applicable
+            privacy laws and regulations. Please refer to our separate Privacy
+            Policy for details.
+          </S.ListItem>
+          <S.ListItem>
+            12.2 When you request account deletion, we will promptly destroy
+            your personal information. However, information required to be
+            retained by applicable laws will be retained for the required period
+            before destruction.
+            <S.UList>
+              <S.ListItem>
+                E-commerce contract, withdrawal, payment, and supply records: 5
+                years
+              </S.ListItem>
+              <S.ListItem>
+                Consumer complaint or dispute resolution records: 3 years
+              </S.ListItem>
+            </S.UList>
+          </S.ListItem>
+          <S.ListItem>
+            12.3 Collected personal information will not be used for purposes
+            other than providing the service.
+          </S.ListItem>
+        </S.UList>
+      </S.Box>
+
+      <S.Box>
+        <S.SubTitle>13. Service Changes and Termination</S.SubTitle>
+        <S.UList>
+          <S.ListItem>
+            13.1 We may modify or discontinue all or part of the service for
+            reasons such as service improvement or technical specification
+            changes.
+          </S.ListItem>
+          <S.ListItem>
+            13.2 For significant changes to service content or service
+            termination, we will provide at least 30 days' prior notice through
+            in-app announcements or registered email. However, in unavoidable
+            circumstances such as urgent system maintenance or security issues,
+            we may provide notice afterward.
+          </S.ListItem>
+          <S.ListItem>
+            13.3 If the service is completely terminated, paid subscribers will
+            receive reasonable compensation or refunds for unused subscription
+            periods.
+          </S.ListItem>
+        </S.UList>
+      </S.Box>
+
+      <S.Box>
+        <S.SubTitle>14. Changes to Terms</S.SubTitle>
+        <S.UList>
+          <S.ListItem>
+            14.1 We may change these Terms as necessary within the scope that
+            does not violate applicable laws.
+          </S.ListItem>
+          <S.ListItem>
+            14.2 When the Terms are changed, we will notify you of the changes
+            and effective date at least 7 days before the effective date through
+            in-app announcements or email. For changes unfavorable to users, we
+            will provide at least 30 days' notice.
+          </S.ListItem>
+          <S.ListItem>
+            14.3 If you continue to use the service after the effective date of
+            the changed Terms, you will be deemed to have agreed to the changed
+            Terms. If you do not agree to the changed Terms, you may stop using
+            the service and delete your account.
+          </S.ListItem>
+        </S.UList>
+      </S.Box>
+
+      <S.Box>
+        <S.SubTitle>15. Dispute Resolution</S.SubTitle>
+        <S.UList>
+          <S.ListItem>
+            15.1 These Terms shall be interpreted and applied in accordance with
+            the laws of the Republic of Korea.
+          </S.ListItem>
+          <S.ListItem>
+            15.2 In case of disputes arising from the use of the service, we and
+            the user shall negotiate in good faith for amicable resolution.
+          </S.ListItem>
+          <S.ListItem>
+            15.3 If negotiation fails, the competent court shall be the court
+            having jurisdiction over our principal place of business.
+          </S.ListItem>
+          <S.ListItem>
+            15.4 For inquiries and complaints regarding service usage, please
+            contact us at {CS_EMAIL}.
+          </S.ListItem>
+        </S.UList>
+      </S.Box>
+
+      <S.Box>
+        <S.SubTitle>Supplementary Provisions</S.SubTitle>
+        <S.UList>
+          <S.ListItem>
+            These Terms shall be effective from January 1, 2025.
           </S.ListItem>
         </S.UList>
       </S.Box>
@@ -318,7 +472,7 @@ const S = {
     margin: 5px 0;
   `,
   UList: styled.ul`
-    list-style-type: ${(props: any) => (props.type ? props.type : 'disc')};
+    list-style-type: ${(props: any) => (props.type ? props.type : "disc")};
   `,
   OList: styled.ol`
     list-style-type: decimal;

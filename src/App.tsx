@@ -1,31 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 // hocs
-import withStyles from './styles/index';
+import withStyles from "./styles/index";
 // components
-import Language from './components/Language';
-import PolicyKo from './components/PolicyKo';
-import PolicyEn from './components/PolicyEn';
-import PrivacyKo from './components/PrivacyKo';
-import PrivacyEn from './components/PrivacyEn';
+import Language from "./components/Language";
+import PolicyKo from "./components/PolicyKo";
+import PolicyEn from "./components/PolicyEn";
+import PrivacyKo from "./components/PrivacyKo";
+import PrivacyEn from "./components/PrivacyEn";
 // styles
-import styled from 'styled-components';
-import * as sizes from './styles/sizes';
+import styled from "styled-components";
+import * as sizes from "./styles/sizes";
 
 function App() {
-  const [type, setType] = useState('policy');
-  const [lng, setLng] = useState('ko');
+  const [type, setType] = useState("policy");
+  const [lng, setLng] = useState("ko");
 
   function getCompanyName() {
     switch (lng) {
-      case 'ko':
+      case "ko":
         return '"소곤소곤(Murmur)"';
-      case 'en':
+      case "en":
         return '"Murmur"';
       default:
-        return '';
+        return "";
     }
   }
-  const CS_EMAIL = 'huurray@gmail.com';
+  const CS_EMAIL = "huurray@gmail.com";
 
   return (
     <Container>
@@ -35,47 +35,47 @@ function App() {
         </Box>
         <Box
           style={{
-            borderBottom: '1px solid #e6e9ed',
-            padding: '5rem 0',
+            borderBottom: "1px solid #e6e9ed",
+            padding: "5rem 0",
           }}
         >
           <Row>
             <Title
               style={{
-                color: type === 'policy' ? '#222' : '#ccc',
+                color: type === "policy" ? "#222" : "#ccc",
               }}
-              onClick={() => setType('policy')}
+              onClick={() => setType("policy")}
             >
-              {lng === 'en' ? 'Policy' : '이용약관'}
+              {lng === "en" ? "Policy" : "이용약관"}
             </Title>
             <div style={{ width: 24 }} />
             <Title
               style={{
-                color: type === 'policy' ? '#ccc' : '#222',
+                color: type === "policy" ? "#ccc" : "#222",
               }}
-              onClick={() => setType('privacy')}
+              onClick={() => setType("privacy")}
             >
-              {lng === 'en' ? 'Privacy Policy' : '개인정보 처리방침'}
+              {lng === "en" ? "Privacy Policy" : "개인정보 처리방침"}
             </Title>
           </Row>
-          <Text>{lng === 'en' ? 'Revision' : '개정'} 2020. 05. 01</Text>
+          <Text>{lng === "en" ? "Revision" : "개정"} 2025. 01. 01</Text>
         </Box>
-        {type === 'policy' && (
+        {type === "policy" && (
           <>
-            {lng === 'ko' && (
+            {lng === "ko" && (
               <PolicyKo COMPANY={getCompanyName()} CS_EMAIL={CS_EMAIL} />
             )}
-            {lng === 'en' && (
+            {lng === "en" && (
               <PolicyEn COMPANY={getCompanyName()} CS_EMAIL={CS_EMAIL} />
             )}
           </>
         )}
-        {type === 'privacy' && (
+        {type === "privacy" && (
           <>
-            {lng === 'ko' && (
+            {lng === "ko" && (
               <PrivacyKo COMPANY={getCompanyName()} CS_EMAIL={CS_EMAIL} />
             )}
-            {lng === 'en' && (
+            {lng === "en" && (
               <PrivacyEn COMPANY={getCompanyName()} CS_EMAIL={CS_EMAIL} />
             )}
           </>
